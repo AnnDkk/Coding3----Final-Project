@@ -71,13 +71,26 @@ Then I tried different layers and adjusting step and step_size to affect the res
 <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG821.jpeg" width="400" height="300">       <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG822.jpeg" width="400" height="300">
 </div>  
 
+</div>  
+
+## Inspiration
+I was pleasantly surprised when I watched [4] 's video! He used the model on a short video of a supermarket visit. He showed what it would be like to see the real world with a "DeepDream" filter.
+
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG823.png" width="400" height="300">       <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG824.png" width="400" height="300">
+</div>  
 
 
+### This wonderful view of the surrounding landscape makes me think of " kaleidoscope "
 
 
 # Project Production
 
 ## Concepts
+
+
+
+
 
  
 
