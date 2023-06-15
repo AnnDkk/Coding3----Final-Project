@@ -1,4 +1,4 @@
-<img width="718" alt="image" src="https://github.com/AnnDkk/Coding3----Final-Project/assets/119824880/e69f61e0-9c14-4068-8067-11b386880f1c"># Coding3----Final-Project
+# Coding3----Final-Project
 ## Electronic kaleidoscope —— by An Dong
 
 <div align=center>
