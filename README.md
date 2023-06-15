@@ -232,11 +232,23 @@ Using this link, we can easily implement the following process:  </div>
 
 
 
-### Interesting!!!
+## Interesting!!!
+
+When I experimented with mixed5， channel = 74 </div> 
+
+I found that the channel had blurred foliage and flowering effects.  </div> 
+
+I immediately searched for a very common grass image with cool results! The grass "bloom"! </div> 
+
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/9.png" width="800" height="550">
+</div> 
 
 
 
 
+## Development
+Later on, I might try to automatically classify the channels that are already in the model to make it easier for the user to select "filters". This will be my next direction!
 
 
 
