@@ -87,12 +87,8 @@ I was pleasantly surprised when I watched [4] 's video! He used the model on a s
 # Project Production
 
 ## Concepts
+Based on the previous study and research, I want to enlarge the recognition information of machine learning in each channel more visually. After my test and research, I found that the output results can be maximized by adjusting the parameter information in a separate channel. And the sense of repetition is like a prism in a kaleidoscope. Perhaps I could simply modify the model to achieve an electronic kaleidoscope effect.
 
-
-
-
-
- 
 
 ## Code
 I found the images of mixed1 and mixed 4 to be more interesting, so I modified the code to increase the random noise image, so as to better show the details of the image features.
