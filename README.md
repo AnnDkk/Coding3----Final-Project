@@ -9,10 +9,16 @@
 The Deep Dream model cleverly uses the machine learning principle of overprocessing the identified features, which attracted me deeply. In pursuing machine learning with higher accuracy, there is a model and algorithm that can see its special. And people through this "special" produce interesting arts which show the creativity of artificial intelligence. After my research, I generated a lot of artwork that I worked with AI by understanding and using the various layers and channels in the model. And this triggered my new inspiration for the project.
 
 # Work File
-Video: 
-Procedural code: 
-Result code: 
+### Video: 
 
+
+### Procedural code: 
+Test1: https://colab.research.google.com/drive/1CRzDCmgjTfhwpau5XA4qZACguivOIxDA#scrollTo=d3g4GwmAfZTK
+</div>
+Test2: https://colab.research.google.com/drive/1O34vz-9Z71iF0cRzrRtw-4VT8Yxfph0d?hl=zh-cn#scrollTo=pw-1UIEYlprW
+
+### Result code: 
+Electronic kaleidoscope: https://colab.research.google.com/drive/1in-DDdF16WzmHUhmmtnaedY4hs2henkK#scrollTo=zE77ZZiAex0I
 
 # Research on Deep Dream Model
 
