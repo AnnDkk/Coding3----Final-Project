@@ -91,7 +91,9 @@ Based on the previous study and research, I want to enlarge the recognition info
 
 
 ## Code
-I found the images of mixed1 and mixed 4 to be more interesting, so I modified the code to increase the random noise image, so as to better show the details of the image features.
+I found the images of mixed1 and mixed 4 to be more interesting, so I modified the code to increase the random noise image, so as to better show the details of the image features. </div> 
+
+Test1: https://colab.research.google.com/drive/1CRzDCmgjTfhwpau5XA4qZACguivOIxDA#scrollTo=d3g4GwmAfZTK
 
 </div> 
 
@@ -195,7 +197,9 @@ In the process of loading new images, I noticed that some images could not be lo
 </div> 
 
 
-Because the original information of some pictures is more complex, it contains more than three channels (R, G, B). Therefore, the information of data identification does not match the information of subsequent judgment processing, so it cannot be run. I've added a process to process images here to remove extra channel information ahead of time, so that almost all images load without problems.
+Because the original information of some pictures is more complex, it contains more than three channels (R, G, B). Therefore, the information of data identification does not match the information of subsequent judgment processing, so it cannot be run. I've added a process to process images here to remove extra channel information ahead of time, so that almost all images load without problems.</div> 
+
+Test2: https://colab.research.google.com/drive/1O34vz-9Z71iF0cRzrRtw-4VT8Yxfph0d?hl=zh-cn#scrollTo=pw-1UIEYlprW
 
 
 > original_img = download(url, max_dim=500)
@@ -268,8 +272,12 @@ Later on, I might try to automatically classify the channels that are already in
 </div>
 
 [4] https://www.youtube.com/watch?v=DgPaCWJL7XI
-</div>
+</div> 
 
+[5] https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v3.py
+</div> 
+
+[6] https://keras.io/examples/generative/deep_dream/
 
 
 
