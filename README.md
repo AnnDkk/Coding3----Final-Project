@@ -50,6 +50,28 @@ The preceding legend shows only a few interesting images. According to the above
 
 </div> 
 
+Then I began to study the official operating model. [1] https://colab.research.google.com/github/tensorflow/docs-l10n/blob/master/site/zh-cn/tutorials/generative/deepdream.ipynb
+> names = ['mixed3', 'mixed5']
+> 
+> layers = [base_model.get_layer(name).output for name in names]
+In this example, it activates two hierarchical features, mixed3 and mixed5. And it also maximizes the loss via gradient ascent to get a new image acting on the imported image in both feature recognition cases.
+</div> 
+However, since the generated images have too low resolution and the granularity is the same, it is necessary to increase the image size or increase the ratio of the image to produce a better DeepDream image.
+
+</div> 
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG819.jpeg" width="400" height="300">       <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG820.jpeg" width="400" height="300">
+</div>  
+
+Through comparison, it is found that the process of deep dream is more like a deep style transfer of the image. It's as if a new filter has been applied to the photo, which still extends in the direction of the loaded image and adds an exaggerated dream-like feature.
+</div>  
+Then I tried different layers and adjusting step and step_size to affect the result. I noticed that as I increased the value of step_size, the image contained the original image would decrease. If it is too large(Left 0.01    Right 0.08), the input layer will completely lose the effect of the original photo.
+</div> 
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG821.jpeg" width="400" height="300">       <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/WechatIMG822.jpeg" width="400" height="300">
+</div>  
+
+
 
 
 
@@ -89,11 +111,11 @@ I found the images of mixed1 and mixed 4 to be more interesting, so I modified t
 </div>
 
 
-### Article：
+### Article/Viedo：
 [3] https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 </div>
 
-[4]
+[4] https://www.youtube.com/watch?v=DgPaCWJL7XI
 </div>
 
 [5]
