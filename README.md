@@ -170,6 +170,39 @@ After the code worked I tried it out with a new model and image. I find that whe
 <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/5.png" width="800" height="300">
 </div> 
 The model learns the colour and graphical logic of the loaded image and adds the features of the model channel to achieve a brand-new artwork. Therefore, I believe that the subjective choice of pictures should also be part of art creation. People and machines create new works of art together, just like people holding the same kaleidoscope to look at different scenes will get completely different visual feast!
+</div> 
+
+
+Here are some of the different images and channels I tried:
+
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/66.png" width="800" height="700">
+</div> 
+
+
+In the process of loading new images, I noticed that some images could not be loaded using the source code:
+> original_img = download(url, max_dim=500)
+> 
+> show(original_img)
+</div> 
+
+
+Because the original information of some pictures is more complex, it contains more than three channels (R, G, B). Therefore, the information of data identification does not match the information of subsequent judgment processing, so it cannot be run. I've added a process to process images here to remove extra channel information ahead of time, so that almost all images load without problems.
+
+
+> original_img = download(url, max_dim=500)
+>
+> original_img = original_img[:, :, :3]
+>
+> original_img = original_img.astype(np.uint8)
+>
+> show(original_img)
+
+
+
+
+
+
 
 
 # Achievements
