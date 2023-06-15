@@ -26,6 +26,8 @@ Electronic kaleidoscope: https://colab.research.google.com/drive/1in-DDdF16WzmHU
 
 
 
+
+
 # Project Production
 
 ## Concepts
@@ -59,7 +61,7 @@ Electronic kaleidoscope: https://colab.research.google.com/drive/1in-DDdF16WzmHU
 [4]
 
 ### Article：
-[1]
+[1] https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 </div>
 
 [2]
