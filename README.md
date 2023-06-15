@@ -22,11 +22,11 @@ Electronic kaleidoscope: https://colab.research.google.com/drive/1in-DDdF16WzmHU
 
 # Research on Deep Dream Model
 According to the article <Inceptionism: Going Deeper into Neural Networks> [3] , I learned about the algorithm used in Deep Dream:
-</div>
+</div> 
 Traditional deep learning uses gradient descent to minimize loss. However, this model uses the principle of gradient ascent to process images. It tries to maximize the expression of the identified single feature by increasing the activation value, so as to visually express the characteristics and styles of the picture seen by the machine at each level.
 
 </div>
-</div>
+</div> 
 
 <div align=center>
 <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/%E8%B5%84%E6%BA%90%201.png" width="800" height="300">
@@ -40,6 +40,16 @@ https://colab.research.google.com/drive/1CRzDCmgjTfhwpau5XA4qZACguivOIxDA#scroll
 </div>
 
 I tested the feature representation of the following layers and different channels within them with random noise.
+</div>
+
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/2.png" width="800" height="350">
+</div> 
+
+The preceding legend shows only a few interesting images. According to the above test results, I found that each channel in these established layers represents a recognition feature. Their graphical characteristics don't change much when I run the same channel over and over again. This means that they are multiple channels combined into a layer to comprehensively represent the desired output of the layer module.
+
+</div> 
+
 
 
 
@@ -50,7 +60,15 @@ I tested the feature representation of the following layers and different channe
  
 
 ## Code
+I found the images of mixed1 and mixed 4 to be more interesting, so I modified the code to increase the random noise image, so as to better show the details of the image features.
 
+</div> 
+
+> img_noise = np.random.uniform(size=(300,300,3)) + 100.0
+> 
+> img_noise = img_noise.astype(np.float32)
+> 
+> show_image(normalize_image(img_noise))
 
 
 ## Challenge
