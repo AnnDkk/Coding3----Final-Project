@@ -101,6 +101,30 @@ I found the images of mixed1 and mixed 4 to be more interesting, so I modified t
 > 
 > show_image(normalize_image(img_noise))
 
+</div>  
+
+</div>  
+
+By magnifying the noise plot and changing the stesp_size values in the statement, I got the following interesting output:
+
+> def run_deep_dream_with_octaves(img, steps_per_octave=100, step_size=0.01, 
+                                octaves=range(-2,3), octave_scale=1.3):
+> 
+> dream_img = render_deepdream(dream_model,img,steps=100,step_size=0.01)
+
+
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/3.png" width="800" height="600">
+</div> 
+
+
+
+
+
+
+
+
+
 
 ## Challenge
 
