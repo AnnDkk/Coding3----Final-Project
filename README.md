@@ -156,7 +156,15 @@ The modified final code:
 > 
 > dream_model = tf.keras.Model(inputs=base_model.input, outputs=selected_channel)
 
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/41.png" width="800" height="400">
+</div> 
 
+
+
+
+## Test
+After the code worked I tried it out with a new model and image.
 
 
 
