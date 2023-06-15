@@ -224,11 +224,15 @@ Using this link, we can easily implement the following process:  </div>
 
 3. It is also possible to obtain entirely new works of art co-created by humans and neural networks by properly tuning different parameters.
 
+### Using mixed4, channel = 79, octaves=range(-1,6), step_size = 0.02
+
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/8.png" width="550" height="800">
+</div> 
 
 
 
-
-
+### Interesting!!!
 
 
 
