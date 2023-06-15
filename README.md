@@ -164,10 +164,12 @@ The modified final code:
 
 
 ## Test
-After the code worked I tried it out with a new model and image.
+After the code worked I tried it out with a new model and image. I find that when I choose a better guide image and adjust the step based on the result, I get better work.
 
-
-
+<div align=center>
+<img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/5.png" width="800" height="300">
+</div> 
+The model learns the colour and graphical logic of the loaded image and adds the features of the model channel to achieve a brand-new artwork. Therefore, I believe that the subjective choice of pictures should also be part of art creation. People and machines create new works of art together, just like people holding the same kaleidoscope to look at different scenes will get completely different visual feast!
 
 
 # Achievements
