@@ -118,15 +118,46 @@ By magnifying the noise plot and changing the stesp_size values in the statement
 </div> 
 
 
-
-
-
-
-
-
-
-
 ## Challenge
+
+After recording the interesting model channels a new problem arises, how to load images with only a single input processing information of a single channel in a hierarchy module.
+</div> 
+Original Code:
+
+> names = ['mixed1', 'mixed4']
+> 
+> layers = [base_model.get_layer(name).output for name in names]
+> 
+> dream_model = tf.keras.Model(inputs=base_model.input, outputs=layers)
+
+I started by simply saying that output is changed to the layer channel of my choice. But the code keeps getting errors: ValueError:  Output tensors of a Functional model must be the output of a TensorFlow `Layer` (thus holding past layer metadata).  Found: 79
+</div> 
+
+
+> name = 'mixed5'  # Layer name
+> 
+> channel_index = 74  # Channel index
+> 
+> dream_model = tf.keras.Model(inputs=base_model.input, outputs = channel_index)
+
+I searched for users who had this problem, and most of them were determined not to have the channel information sliced and stored in the identified hierarchy, so they could only retrieve the number 79. I made many changes and even asked chatgpt to make changes to this code and it still failed. I eventually did this through a combination of suggested changes.
+
+</div> 
+
+The modified final code:
+
+> name = 'mixed5'  # Layer name
+> 
+> channel_index = 74  # Channel index
+> 
+> layer_output = base_model.get_layer(name).output
+> 
+> selected_channel = layer_output[:, :, :, channel_index]
+> 
+> dream_model = tf.keras.Model(inputs=base_model.input, outputs=selected_channel)
+
+
+
 
 
 
