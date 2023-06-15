@@ -1,4 +1,4 @@
-# Coding3----Final-Project
+<img width="718" alt="image" src="https://github.com/AnnDkk/Coding3----Final-Project/assets/119824880/e69f61e0-9c14-4068-8067-11b386880f1c"># Coding3----Final-Project
 ## Electronic kaleidoscope —— by An Dong
 
 <div align=center>
@@ -179,6 +179,14 @@ Here are some of the different images and channels I tried:
 <img src="https://github.com/AnnDkk/Coding3----Final-Project/blob/main/C3image/66.png" width="800" height="700">
 </div> 
 
+In addition, I noticed that when I adjusted octaves=range(), the dimensions of the generated image were higher. The starting point of the range also determines whether it can be melded more gently. Changing the value of octave_scale increases or decreases the fineness of the generated image. Of course, if the value is too large, it will also increase the output time and affect the excessive fusion of the two effects.
+</div> 
+
+</div> 
+
+</div> 
+
+
 
 In the process of loading new images, I noticed that some images could not be loaded using the source code:
 > original_img = download(url, max_dim=500)
@@ -199,13 +207,34 @@ Because the original information of some pictures is more complex, it contains m
 > show(original_img)
 
 
+</div> 
 
+After testing the code correctly, I reorganized the two separate pieces of code and added guidance information. The result is a simple "electronic kaleidoscope" model.
+</div> 
 
-
-
-
+### Final Model 
+URL: https://colab.research.google.com/drive/1in-DDdF16WzmHUhmmtnaedY4hs2henkK#scrollTo=zE77ZZiAex0I
 
 # Achievements
+Using this link, we can easily implement the following process:  </div> 
+
+1. The user generates a "kaleidograph filter" with the selected levels and channels. </div> 
+
+2. After selecting the filter, the user is free to select the matching image and enter the connection to load the image. </div> 
+
+3. It is also possible to obtain entirely new works of art co-created by humans and neural networks by properly tuning different parameters.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -225,10 +254,6 @@ Because the original information of some pictures is more complex, it contains m
 [4] https://www.youtube.com/watch?v=DgPaCWJL7XI
 </div>
 
-[5]
-</div>
-
-[4]
 
 
 
