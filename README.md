@@ -10,9 +10,9 @@ The Deep Dream model cleverly uses the machine learning principle of overprocess
 
 # Work File
 ### Video: 
-Final Video: https://youtu.be/vGCZ2JFWg6U
+Process Video: https://youtu.be/vGCZ2JFWg6U
 
-### Procedural code: 
+### Process code: 
 Test1: https://colab.research.google.com/drive/1CRzDCmgjTfhwpau5XA4qZACguivOIxDA#scrollTo=d3g4GwmAfZTK
 </div>
 Test2: https://colab.research.google.com/drive/1O34vz-9Z71iF0cRzrRtw-4VT8Yxfph0d?hl=zh-cn#scrollTo=pw-1UIEYlprW
